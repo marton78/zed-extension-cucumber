@@ -11,8 +11,8 @@ struct CucumberExtension {
 
 const SERVER_BINARY: &str = "cucumber-language-server";
 const SERVER_PATH: &str =
-    "node_modules/@cucumber/language-server/bin/cucumber-language-server.cjs";
-const PACKAGE_NAME: &str = "@cucumber/language-server";
+    "node_modules/@marton78/cucumber-language-server/bin/cucumber-language-server.cjs";
+const PACKAGE_NAME: &str = "@marton78/cucumber-language-server";
 
 /// Step keywords mapped to their tree-sitter highlight group.
 const STEP_KEYWORDS: &[(&str, &str)] = &[
